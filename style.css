@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  height: 98vh;
+  overflow: hidden;
+}
+.theme-switcher i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.dark-theme {
+  background-color: #233142;
+  color: white;
+}
+.favColor {
+  height: 98vh;
+  width: 25vw;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.favColor h1 {
+  font-size: 36px;
+}
+
+.colors {
+  height: 80%;
+  width: auto;
+  padding: 25px 0;
+}
+
+.palette {
+  height: 15%;
+  width: auto;
+  border-radius: 10px;
+}
+.icons {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+.fa-copy,
+.fa-trash {
+  cursor: pointer;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 158, 119);
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+button {
+  height: 60px;
+  width: 150px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
